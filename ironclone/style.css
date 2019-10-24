@@ -1,0 +1,127 @@
+
+ 
+h1 {
+    font-size: 4.5em;
+    font-display: center;
+}
+
+.flexbox {
+  display: flex;
+}
+
+.flexbox.space-between {
+  justify-content: space-between;
+}
+
+.flexbox.center {
+    justify-content: center;
+    align-items: center;
+}
+.flexbox.content {
+    justify-content: center;
+}
+
+.transparent {
+    background-color: transparent;
+}
+.nav-links li {
+ padding: 0 20px;
+ margin-bottom: 30px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ .button {
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #32c3ff;
+    border: 1px solid #32c3ff;;
+    display: block;
+    text-align: center;
+    padding: 17px 0;
+    width: 300px;
+    margin-bottom: 100px;
+    border-radius: 5px;
+}
+
+.button.big {
+    width: 30%;
+    padding: 20px;
+}
+
+.button.solid {
+    color: #32c3ff;
+    background: white;
+    transition: all .2s ease-in .1s;
+}
+
+.button.solid:hover {
+    color: white;
+    background: #32c3ff;;
+}
+
+.hero {
+    text-align: center;
+    color:white;
+    background-image: url(images/download.svg);
+    background-position-y: -600px;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+.hero .button {
+    margin: 25px auto;
+}
+
+header hr {
+    margin: 80px 0px 0px 0px;
+}
+aside img {
+    width: 8%;
+    filter: grayscale(100%);
+}
+
+.image-slide {
+    margin: 0px auto;
+}
+aside p{
+    text-align: center;
+}
+
+aside hr {
+    margin: 0px 20px;
+}
+
+.students {
+    text-align: center;
+    margin: 50px 0px;
+    text-transform: uppercase;
+}
+
+.students h2 {
+    font-weight: 400;
+}
+
+.students-image {
+    width: 80%;
+    margin-left: 20%;
+}
+
+.quote-section {
+    padding: 0px 80px;
+   
+}
+
+.Diana-quote {
+    color:orange;
+    font-size: 1.2em;
+}
+
+.students-section-two {
+    margin-bottom: 100px;
+}
